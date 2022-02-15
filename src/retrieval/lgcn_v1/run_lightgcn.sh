@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 /root/miniconda3/envs/TF111/bin/python LightGCN.py --dataset s123t12_withoutqrel --regs [1e-4] --embed_size 64 --layer_size [64,64,64,64] --node_dropout_flag 1 --node_dropout [0.1,0.1,0.1,0.1] --lr 0.001 --batch_size 8192 --epoch 1000 --pretrain 0 --inference 0 --weights_path t12_1kep --Ks [20] --save_flag 1 --test_flag full --report 0

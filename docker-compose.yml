@@ -1,0 +1,18 @@
+version: '3.6'
+
+services:
+  wsdm2022:
+    container_name: wsdm2022-opd
+    build: .
+    volumes:
+      - '.:/home/workspace'
+      - '/etc/localtime:/etc/localtime'
+    tty: true
+    stdin_open: true
+    ports:
+      - 6767:8010
+      - 6868:6006
+    environment:
+      - IPADDR=$IPADDR
+      - PROJNM=$PROJNM
+    restart: always

@@ -1,0 +1,16 @@
+autopep8
+numpy
+jupyter
+tqdm
+pandas
+sklearn
+lightgbm
+catboost
+gensim
+python-Levenshtein
+swifter
+faiss-cpu
+numba
+matplotlib
+seaborn
+pytrec_eval

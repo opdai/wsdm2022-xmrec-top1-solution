@@ -1,0 +1,7 @@
+*.pyc
+src/retrieval/logs/
+src/retrieval/lgcn_v1/Data/
+src/retrieval/lgcn_v1/tensorboard/
+src/retrieval/lgcn_v2/data/
+src/retrieval/node2vec_v1/vocabulary.txt
+src/retrieval/node2vec_v2/vocabulary.txt
